@@ -199,6 +199,9 @@
 .main-free-book-paragraph {
     width: 570px;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .main-free-book-paragraph h2 {
