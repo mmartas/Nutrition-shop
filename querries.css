@@ -89,22 +89,22 @@
     }
 
     .footer-logo-social {
-        height: 150px;
+        height: auto;
         padding: 30px;
     }
 
     .footer-quick-links {
-        height: 240px;
+        height: auto;
         padding: 30px;
     }
 
     .footer-our-services {
-        height: 270px;
+        height: auto;
         padding: 30px;
     }
 
     .footer-newsletter {
-        height: 260px;
+        height: auto;
         padding: 30px;
     }
 
