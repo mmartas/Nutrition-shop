@@ -12,11 +12,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .row {
     width: 1140px;
     margin: 0 auto;
 }
-
 
 /*
     (1 SEKCE)-LOGO-MENU-KOSIK
@@ -32,6 +32,7 @@
 .heading-photo img {
     width: 158px;
 }
+
 .heading-photo img:hover {
     cursor: pointer;;
 }
@@ -99,12 +100,9 @@
     cursor: pointer;
 }
 
-
-
 /*
     (2 SEKCE)-NADPIS-ODSTAVEC-ROLICKA
 */
-
 /* NADPIS */
 .main-heading-paragprah-roll h1 {
     font-size: 48px;
@@ -150,6 +148,7 @@
     width: 320px;
     height: 370px;
 }
+
 .main-one-product img:hover {
     cursor: pointer;
 }
@@ -161,6 +160,7 @@
     text-align: center;
     margin-top: 20px;
 }
+
 .main-one-product h2:hover {
     cursor: pointer;
 }
@@ -205,6 +205,7 @@
     display: block;
     margin: 0 auto;
 }
+
 .btn-cart:hover {
     background: var(--mustard);
     color: #fff;
@@ -227,6 +228,7 @@
 .main-free-book-img {
     width: 570px;
 }
+
 .main-free-book-img img {
     width: 384px;
     display: block;
@@ -280,6 +282,7 @@
     font-size: 16px;
     color: #fff;
 }
+
 .main-free-book-paragraph .btn-free-book:hover {
     background-color: var(--green-hover);
     cursor: pointer;
@@ -296,47 +299,7 @@
     align-items: center;
 }
 
-.footer-logo-social {
-    display: flex;
-    flex-direction: column;
-    width: 285px;
-    height: 300px;
-    padding: 30px 30px 30px 0;
-}
-.footer-logo-social img {
-    width: 210px;
-}
-
-.footer-logo-social .social-media {
-    margin-top: 30px;
-    display: flex;
-    gap: 20px;
-}
-.footer-logo-social .social-media .fa {
-    font-size: 23px;
-    color: var(--mustard);
-}
-.footer-logo-social .social-media .fa:hover {
-    cursor: pointer;
-}
-.footer-quick-links {
-    width: 285px;
-    height: 300px;
-    padding: 30px;
-}
-
-.footer-our-services {
-    width: 285px;
-    height: 300px;
-    padding: 30px;
-}
-
-.footer-newsletter {
-    width: 285px;
-    height: 300px;
-    padding: 30px 0 30px 30px;
-}
-
+/* VŠECHNY SLOUPCE NADPIS A TEXT*/
 .footer-logo-social h2, .footer-quick-links h2, .footer-our-services h2, .footer-newsletter h2 {
     font-family: "Inter", sans-serif;
     font-size: 24px;
@@ -354,18 +317,63 @@
     padding-bottom: 1px;
     text-decoration: none;
 }
+
 .footer-logo-social a:hover, .footer-quick-links a:hover, .footer-our-services a:hover, .footer-newsletter a:hover {
     border-bottom: 1px solid var(--mustard);
     color: var(--mustard-hover);
     padding-bottom: 0;
     cursor: pointer;
 }
+
+/* 1. SLOUPEC */
+.footer-logo-social {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    height: 300px;
+    padding: 30px 30px 30px 0;
+}
+
+.footer-logo-social img {
+    width: 210px;
+}
+
+.footer-logo-social .social-media {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-logo-social .social-media .fa {
+    font-size: 23px;
+    color: var(--mustard);
+}
+
+.footer-logo-social .social-media .fa:hover {
+    cursor: pointer;
+}
+
+/* 2. A 3. SLOUPEC*/
+.footer-quick-links, .footer-our-services {
+    width: 285px;
+    height: 300px;
+    padding: 30px;
+}
+
+/* 4. SLOUPEC */
+.footer-newsletter {
+    width: 285px;
+    height: 300px;
+    padding: 30px 0 30px 30px;
+}
+
 .footer-newsletter p {
     color: #fff;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     margin-bottom: 5px;
 }
+
 .form2 {
     display: flex;
     flex-direction: column;
