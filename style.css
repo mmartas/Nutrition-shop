@@ -2,7 +2,8 @@
     --mustard: #cfb02c;
     --green: #344742;
     --darkGreen: #293330;
-    --hover: #758D87;
+    --green-hover: #758D87;
+    --mustard-hover: #ba9e28;
 }
 
 * {
@@ -70,7 +71,7 @@
 }
 
 .heading-paragraph p:hover {
-    background: var(--hover);
+    background: var(--green-hover);
     cursor: pointer;
 }
 
@@ -245,7 +246,7 @@
     color: #fff;
 }
 .main-free-book-paragraph .btn-free-book:hover {
-    background-color: var(--hover);
+    background-color: var(--green-hover);
     cursor: pointer;
 }
 .form {
@@ -321,6 +322,7 @@
 }
 .footer-logo-social a:hover, .footer-quick-links a:hover, .footer-our-services a:hover, .footer-newsletter a:hover {
     border-bottom: 1px solid var(--mustard);
+    color: var(--mustard-hover);
     padding-bottom: 0;
     cursor: pointer;
 }
@@ -330,16 +332,10 @@
     font-size: 16px;
     margin-bottom: 5px;
 }
-
-.footer-quick-links a:hover {
-    border-bottom: 1px solid var(--mustard);
-    padding-bottom: 0;
-    cursor: pointer;
-}
 .form2 {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 .form2 input {
@@ -348,6 +344,7 @@
     border-color: #b3b3b3;
     font-size: 18px;
     border: none;
+    height: 55px;
 }
 
 .btn-footer {
@@ -358,6 +355,7 @@
     padding: 10px 12px;
     border: none;
     color: #fff;
+    height: 42px;
 }
 
 .btn-footer:hover {
