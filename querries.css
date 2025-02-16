@@ -1,9 +1,11 @@
 @media only screen and (max-width: 1200px) {
+    /* ZÁKLADNÍ NASTAVENÍ */
     .row {
         width: 940px;
         margin: 0 auto;
     }
 
+    /* (3 SEKCE)-PRODUKTY */
     .main-one-product img {
         width: 250px;
         height: 300px;
@@ -11,10 +13,12 @@
 }
 
 @media only screen and (max-width: 1160px) {
+    /* (5 SEKCE)-PATIČKA-ODKAZY-EMAIL */
     .all-footer {
         flex-wrap: wrap;
         height: 760px;
     }
+
     .footer-logo-social {
         height: auto;
         padding: 30px;
@@ -41,33 +45,38 @@
 }
 
 @media only screen and (max-width: 1000px) {
+    /* ZÁKLADNÍ NASTAVENÍ */
     .row {
         width: 740px;
         margin: 0 auto;
     }
 
+    /* (1 SEKCE)-LOGO-MENU-KOSIK */
     .all-heading {
         flex-direction: column;
         height: 150px;
         margin-top: 20px;
     }
 
+    /* (3 SEKCE)-PRODUKTY */
     .main-products {
         justify-content: center;
     }
 
+    /* (4 SEKCE)-FREE BOOK */
     .main-free-book-full {
         flex-direction: column;
         height: 980px;
     }
 
+    .main-free-book-paragraph {
+        text-align: center;
+    }
+
+    /* (5 SEKCE)-PATIČKA-ODKAZY-EMAIL */
     .all-footer {
         flex-wrap: wrap;
         height: 760px;
-    }
-
-    .main-free-book-paragraph {
-        text-align: center;
     }
 
     .footer-logo-social {
@@ -96,15 +105,22 @@
 }
 
 @media only screen and (max-width: 840px) {
+    /* ZÁKLADNÍ NASTAVENÍ */
     .row {
         width: 540px;
         margin: 0 auto;
     }
 
+    /* (1 SEKCE)-LOGO-MENU-KOSIK */
     .all-heading {
         flex-direction: column;
         height: 150px;
         margin-top: 20px;
+    }
+
+    /* (3 SEKCE)-PRODUKTY */
+    .main-one-product {
+        padding: 29px 10px;
     }
 
     .main-one-product img {
@@ -112,16 +128,7 @@
         height: 570px;
     }
 
-    .main-one-product {
-        padding: 29px 10px;
-    }
-
-    .all-footer {
-        flex-wrap: wrap;
-        height: 650px;
-        align-content: center;
-    }
-
+    /* (4 SEKCE)-FREE BOOK */
     .form {
         flex-direction: column;
     }
@@ -129,9 +136,17 @@
     .main-free-book-paragraph #input {
         width: 100%;
     }
+
+    /* (5 SEKCE)-PATIČKA-ODKAZY-EMAIL */
+    .all-footer {
+        flex-wrap: wrap;
+        height: 650px;
+        align-content: center;
+    }
 }
 
 @media only screen and (max-width: 700px) {
+    /* (5 SEKCE)-PATIČKA-ODKAZY-EMAIL */
     .all-footer {
         flex-wrap: wrap;
         height: 1010px;
@@ -140,20 +155,65 @@
 }
 
 @media only screen and (max-width: 590px) {
-    .main-heading-paragprah-roll {
-        width: 400px;
-    }
+    /* ZÁKLADNÍ NASTAVENÍ */
     .row {
         width: 450px;
         margin: 0 auto;
     }
+
+    /* (1 SEKCE)-LOGO-MENU-KOSIK */
     .all-heading {
         flex-direction: column;
         height: 150px;
         margin-top: 20px;
     }
     
+    /* (2 SEKCE)-NADPIS-ODSTAVEC-ROLICKA */
+    .main-heading-paragprah-roll {
+        width: 400px;
+    }
 
+    .main-heading-paragprah-roll h1 {
+        font-size: 30px;
+    }
+
+    .main-heading-paragprah-roll p {
+        font-size: 16px;
+    }
+
+    #my-roll {
+        margin-left: 40px;
+    }
+
+    /* (3 SEKCE)-PRODUKTY */
+    .main-one-product img {
+        width: 320px;
+        height: 370px;
+    }
+
+    /* (4 SEKCE)-FREE BOOK */
+    .main-free-book-img {
+        width: 500px;
+    }
+
+    .main-free-book-img img {
+        width: 340px;
+    }
+
+    .main-free-book-paragraph {
+        width: 340px;
+        padding: 30px 10px;
+    }
+
+    .main-free-book-paragraph h2 {
+        font-size: 24px;
+    }
+
+    .main-free-book-paragraph p {
+        font-size: 16px;
+    }
+
+    /* (5 SEKCE)-PATIČKA-ODKAZY-EMAIL */
     .footer-logo-social {
         height: auto;
         padding: 30px 10px 30px 0;
@@ -176,43 +236,5 @@
         height: auto;
         padding: 30px 0;
         width: 340px;
-    }
-
-    .main-free-book-img {
-        width: 500px;
-    }
-
-    .main-free-book-img img {
-        width: 340px;
-    }
-
-    .main-free-book-paragraph {
-        width: 340px;
-        padding: 30px 10px;
-    }
-
-    .main-one-product img {
-        width: 320px;
-        height: 370px;
-    }
-
-    #my-roll {
-        margin-left: 40px;
-    }
-
-    .main-heading-paragprah-roll h1 {
-        font-size: 30px;
-    }
-
-    .main-heading-paragprah-roll p {
-        font-size: 16px;
-    }
-
-    .main-free-book-paragraph h2 {
-        font-size: 24px;
-    }
-
-    .main-free-book-paragraph p {
-        font-size: 16px;
     }
 }
