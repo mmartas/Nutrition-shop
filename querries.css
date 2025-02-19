@@ -20,7 +20,7 @@
     }
 
     .footer-logo-social {
-        height: auto;
+        height: 257px;
         padding: 30px;
         width: 400px;
     }
@@ -85,7 +85,7 @@
     }
 
     .footer-logo-social {
-        height: auto;
+        height: 257px;
         padding: 30px;
         width: 340px;
     }
@@ -152,6 +152,31 @@
         height: 1010px;
         align-content: center;
     }
+
+    /* (5 SEKCE)-PATIČKA-ODKAZY-EMAIL */
+    .footer-logo-social {
+        height: auto;
+        padding: 30px 10px 30px 0;
+        width: 342px;
+    }
+
+    .footer-quick-links {
+        height: auto;
+        padding: 30px 10px 30px 0;
+        width: 342px;
+    }
+
+    .footer-our-services {
+        height: auto;
+        padding: 30px 10px 30px 0;
+        width: 342px;
+    }
+
+    .footer-newsletter {
+        height: auto;
+        padding: 30px 0;
+        width: 342px;
+    }
 }
 
 @media only screen and (max-width: 590px) {
@@ -213,28 +238,5 @@
         font-size: 16px;
     }
 
-    /* (5 SEKCE)-PATIČKA-ODKAZY-EMAIL */
-    .footer-logo-social {
-        height: auto;
-        padding: 30px 10px 30px 0;
-        width: 340px;
-    }
 
-    .footer-quick-links {
-        height: auto;
-        padding: 30px 10px 30px 0;
-        width: 340px;
-    }
-
-    .footer-our-services {
-        height: auto;
-        padding: 30px 10px 30px 0;
-        width: 340px;
-    }
-
-    .footer-newsletter {
-        height: auto;
-        padding: 30px 0;
-        width: 340px;
-    }
 }

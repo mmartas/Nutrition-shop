@@ -272,6 +272,10 @@
     width: 300px;
 }
 
+.main-free-book-paragraph #input:focus {
+    outline: none;
+}
+
 .main-free-book-paragraph .btn-free-book {
     padding: 16px 61px;
     height: 55px;
@@ -400,4 +404,8 @@
 .btn-footer:hover {
     background-color: var(--green-hover);
     cursor: pointer;
+}
+
+.form2 input:focus {
+    outline: none;
 }
