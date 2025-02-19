@@ -6,9 +6,9 @@
     }
 
     /* (3 SEKCE)-PRODUKTY */
-    .main-one-product img {
-        width: 250px;
-        height: 300px;
+    .main-products {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -61,6 +61,11 @@
     /* (3 SEKCE)-PRODUKTY */
     .main-products {
         justify-content: center;
+    }
+
+    .main-one-product img {
+        width: 520px;
+        height: 570px;
     }
 
     /* (4 SEKCE)-FREE BOOK */
@@ -121,11 +126,6 @@
     /* (3 SEKCE)-PRODUKTY */
     .main-one-product {
         padding: 29px 10px;
-    }
-
-    .main-one-product img {
-        width: 520px;
-        height: 570px;
     }
 
     /* (4 SEKCE)-FREE BOOK */
