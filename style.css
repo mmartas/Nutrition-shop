@@ -327,8 +327,6 @@
 
 /* 1. SLOUPEC */
 .footer-logo-social {
-    display: flex;
-    flex-direction: column;
     width: 285px;
     height: 300px;
     padding: 30px 30px 30px 0;
@@ -383,7 +381,6 @@
 .form2 input {
     padding: 10px 12px;
     border-radius: 50px;
-    border-color: #b3b3b3;
     font-size: 18px;
     border: none;
     height: 55px;
@@ -401,6 +398,6 @@
 }
 
 .btn-footer:hover {
-    background-color: var(--hover);
+    background-color: var(--green-hover);
     cursor: pointer;
 }
