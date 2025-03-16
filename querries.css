@@ -51,13 +51,6 @@
         margin: 0 auto;
     }
 
-    /* (1 SEKCE)-LOGO-MENU-KOSIK */
-    .all-heading {
-        flex-direction: column;
-        height: 150px;
-        margin-top: 20px;
-    }
-
     /* (3 SEKCE)-PRODUKTY */
     .main-products {
         justify-content: center;
@@ -114,13 +107,6 @@
     .row {
         width: 540px;
         margin: 0 auto;
-    }
-
-    /* (1 SEKCE)-LOGO-MENU-KOSIK */
-    .all-heading {
-        flex-direction: column;
-        height: 150px;
-        margin-top: 20px;
     }
 
     /* (3 SEKCE)-PRODUKTY */
@@ -186,13 +172,6 @@
         margin: 0 auto;
     }
 
-    /* (1 SEKCE)-LOGO-MENU-KOSIK */
-    .all-heading {
-        flex-direction: column;
-        height: 150px;
-        margin-top: 20px;
-    }
-    
     /* (2 SEKCE)-NADPIS-ODSTAVEC-ROLICKA */
     .main-heading-paragprah-roll {
         width: 400px;
